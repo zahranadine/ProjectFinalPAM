@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="590dp"
+        android:layout_height="780dp"
+        android:src="@drawable/splash_screen_bg"
+        tools:layout_editor_absoluteX="-90dp"
+        tools:layout_editor_absoluteY="-25dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="What's up bitch"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:fontFamily="@font/maison_neue_black"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="500dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our apps"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:fontFamily="@font/maison_neue_extrabold"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/title1"
+            />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="40dp"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title2"
+        android:text="GET STARTED"
+        android:fontFamily="@font/maison_neue_demi"
+        android:textColor="@color/Dark_blue"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:background="@drawable/ic_rectangle"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
