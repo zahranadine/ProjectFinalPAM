@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218358691289",
+    "project_id": "fir-crud-zahra",
+    "storage_bucket": "fir-crud-zahra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218358691289:android:4b4eb89b773c2e3ff095c8",
+        "android_client_info": {
+          "package_name": "com.example.finalprojectpam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsEJvTMRqVreL9RKuZgUGQKv2-4JsEvD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
