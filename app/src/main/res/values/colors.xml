@@ -5,12 +5,12 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="Pure_black">#FF000000</color>
+    <color name="pure_black">#FF000000</color>
     <color name="white">#EFEFEF</color>
-    <color name="Popstar">#bb5b67</color>
-    <color name="Yellow">#feb65e</color>
-    <color name="Dark_blue">#28273e</color>
-    <color name="Indigo">#243a6b</color>
-    <color name="Maroon">#7d2646</color>
-    <color name="Black">#131522</color>
+    <color name="popstar">#bb5b67</color>
+    <color name="yellow">#feb65e</color>
+    <color name="dark_blue">#28273e</color>
+    <color name="indigo">#243a6b</color>
+    <color name="maroon">#7d2646</color>
+    <color name="black">#131522</color>
 </resources>
