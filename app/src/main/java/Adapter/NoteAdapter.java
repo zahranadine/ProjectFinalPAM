@@ -44,8 +44,8 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.ViewHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.tv_judul.setText(List.get(position).getJudul());
-        holder.tv_isi.setText(List.get(position).getIsi());
+        holder.tv_judul.setText(list.get(position).getJudul());
+        holder.tv_isi.setText(list.get(position).getIsi());
     }
 
     @Override
@@ -77,7 +77,7 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.ViewHolder>{
         public void onClick(View v) {
             int position = getAdapterPosition();
             if(bt_delete.getId()==v.getId()){
-                dbReference.child(List.get(position).getKey()).removeValue();
+                dbReference.child(list.get(position).getKey()).removeValue();
                 list.remove(position);
                 notifyItemRemoved(position);
                 notifyItemRangeChanged(position, list.size());
