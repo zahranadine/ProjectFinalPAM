@@ -14,5 +14,5 @@ public class Note {
         this.key = key;
     }
 
-
+    private
 }

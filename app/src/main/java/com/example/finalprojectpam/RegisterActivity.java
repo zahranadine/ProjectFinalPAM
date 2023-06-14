@@ -116,7 +116,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         } else {
             password.setError(null);
         }
-        if (password.getText().toString()==confirmPassword.getText().toString()){
+        if (password.getText().toString()!=confirmPassword.getText().toString()){
             confirmPassword.setError("Password doesn't match");
             result = false;
         } else {
